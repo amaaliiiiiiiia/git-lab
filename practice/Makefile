@@ -1,6 +1,6 @@
-main: main.o
-	
-main.o: main.c
+all: main
+
+main: main.cc
 
 clean:
 	rm main main.o
